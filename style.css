@@ -1,0 +1,85 @@
+*{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: pink;
+}
+#calculator{
+    max-width: 500px;
+    overflow: hidden;
+    background-color: white;
+}
+
+#screen{
+  position: relative;
+  bottom: 20px;
+  left: 50px;
+  right: 50px;
+  width: 440px;
+  height: 50px;
+  padding: 20px;
+  font-size: 1.8rem;
+  text-align: left;
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+
+.keypad{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 60px;
+  bottom: 30px;
+  border-color: black;
+}
+
+ 
+.heart{
+    width: 105px;
+    height: 105px;
+    background-color:  white;
+    color: black;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.heart:hover{
+    background-color: pink;
+}
+.heartutton:active{
+    background-color: hsl(345, 100%, 80%);
+}
+
+ /*FOOTER*/
+ .footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 90%;
+  padding: 20px;
+  font-size: clamp(1.3rem, 2vw, 2rem);
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+ }
+ 
+ .fa-github {
+  color: black;
+  font-size: 24px;
+  transition: transform 0.3s ease-in-out;
+ }
+ 
+ .fa-github:hover {
+  transform: rotate(360deg) scale(1.2);
+ }
+ 
+ 

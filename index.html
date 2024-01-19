@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <id class="calculator">
+    <input id="screen" readonly>
+    <div class="keypad">  
+      <button class="heart"><i id="heart" class="fas fa-heart"></i></button>
+      <button class="heart" onclick="reset()">clear</button>
+      <button class="heart" onclick="del()">delete</button>
+      <button class="heart"><i id="heart" class="fas fa-heart"></i></button>
+      <button class="heart" onclick="appendtoDisplay('7')">7</button>
+      <button class="heart" onclick="appendtoDisplay('8')">8</button>
+      <button class="heart" onclick="appendtoDisplay('9')">9</button>
+      <button class="heart" onclick="appendtoDisplay('/')">/</button>
+      <button class="heart" onclick="appendtoDisplay('4')">4</button>
+      <button class="heart" onclick="appendtoDisplay('5')">5</button>
+      <button class="heart" onclick="appendtoDisplay('6')">6</button>
+      <button class="heart" onclick="appendtoDisplay('*')">*</button>
+      <button class="heart" onclick="appendtoDisplay('1')">1</button>
+      <button class="heart" onclick="appendtoDisplay('2')">2</button>
+      <button class="heart" onclick="appendtoDisplay('3')">3</button>
+      <button class="heart" onclick="appendtoDisplay('-')">-</button>
+      <button class="heart" onclick="appendtoDisplay('0')">0</button>
+      <button class="heart" onclick="appendtoDisplay('.')">.</button>
+      <button class="heart" onclick="calculate()">=</button>
+      <button class="heart" onclick="appendtoDisplay('+')">+</button>
+    </div>
+   </id>
+</body>
+ <footer class="footer">
+        <p>
+          sooolji27
+          <a href="https://github.com/sooolji27" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          _bellaaatg
+          <a href="https://www.instagram.com/_bellaaatg/" target="_blank">
+            <i class="fab fa-instagram"></i>
+         </a>         
+        </p>
+ </footer>
+
+ <script src="app.js"></script> 
+</body>
+</html>
