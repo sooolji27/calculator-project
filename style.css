@@ -82,33 +82,3 @@ body{
   transform: rotate(360deg) scale(1.2);
  }
  
- /*Responsive*/
- @media only screen and (max-width: 500px) {
-   #calculator{
-       max-width: 100%;
-       width: 100%;
-   }
-
-   #screen{
-     width: 100%;
-     padding: 10px;
-     font-size: 1.2rem;
-   }
-}
-
-@media only screen and (max-width: 500px) {
-   .keypad{
-       grid-template-columns: repeat(2, 1fr);
-       padding: 30px;
-   }
-
-   .heart{
-       width: 70px;
-       height: 70px;
-       font-size: 1.6rem;
-   }
-
-   .footer {
-       font-size: clamp(1.1rem, 2vw, 1.6rem);
-   }
-}
