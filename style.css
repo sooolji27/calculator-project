@@ -20,10 +20,10 @@ body{
   bottom: 20px;
   left: 50px;
   right: 50px;
-  width: 440px;
+  width: 400px;
   height: 50px;
   padding: 20px;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   text-align: left;
   background-color: white;
   color: black;
@@ -35,17 +35,17 @@ body{
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   padding: 60px;
-  bottom: 30px;
+  bottom: 25px;
   border-color: black;
 }
 
  
 .heart{
-    width: 105px;
-    height: 105px;
+    width: 100px;
+    height: 100px;
     background-color:  white;
     color: black;
-    font-size: 2rem;
+    font-size: 1.5rem;
     cursor: pointer;
 }
 .heart:hover{
@@ -63,18 +63,18 @@ body{
   align-items: center;
   justify-content: center;
   gap: 10px;
-  width: 90%;
+  width: 85%;
   padding: 20px;
-  font-size: clamp(1.3rem, 2vw, 2rem);
-  margin-left: 50px;
-  margin-right: 50px;
+  font-size: clamp(1.3rem, 1.5vw, 1.5rem);
+  margin-left: 45px;
+  margin-right: 45px;
   font-family: 'Playfair Display', serif;
   font-style: italic;
  }
  
  .fa-github {
   color: black;
-  font-size: 24px;
+  font-size: 20px;
   transition: transform 0.3s ease-in-out;
  }
  
